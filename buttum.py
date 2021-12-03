@@ -18,10 +18,15 @@ birinchi = ReplyKeyboardMarkup(
     # one_time_keyboard=True,
 )
 
-ikkinchi = ReplyKeyboardMarkup(
+men_haydovchiman = ReplyKeyboardMarkup(
     keyboard=[
         [KeyboardButton(text="Andijon-Toshkent-Andijon"), KeyboardButton(text="Farg'ona-Toshkent-Farg'ona")],
         [KeyboardButton(text="Buxoro-Toshkent-Buxoro"), KeyboardButton(text="Jizzax-Toshkent-Jizzax")],
+        [KeyboardButton(text="Namangan-Toshkent-Namangan"), KeyboardButton(text="Navoi-Toshkent-Navoi")],
+        [KeyboardButton(text="Qashqidaryo-Toshkent-Qashqidaryo"), KeyboardButton(text="Qoraqalpoqiston-Toshkent-Qoraqalpaqiston")],
+        [KeyboardButton(text="Samarqand-Toshkent-Samarqand"), KeyboardButton(text="Sirdayo-Toshkent-Sirdaryo")],
+        [KeyboardButton(text="Surxondaryo-Toshkent-Surxondaryo"), KeyboardButton(text="Xorazm-Toshkent-Xorazm")],
+    
     ],
     resize_keyboard=True,
     # one_time_keyboard=True,

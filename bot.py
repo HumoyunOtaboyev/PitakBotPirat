@@ -18,11 +18,11 @@ async def send_welcome(message: types.Message):
 
 @dp.message_handler(Text(equals=["Haydovchi kerak"]))
 async def accounts(message: types.Message):
-    await message.answer(f"Siz qaysi viloyatta turibsiz?", reply_markup=birinchi)
+    await message.answer(f"Siz qaysi viloyatta turibsiz?", reply_markup=men_haydovchiman)
 
 @dp.message_handler(Text(equals=["Men haydovchiman"]))
 async def contacts(message: types.Message):
-    await message.answer(f"Qaysi yo'nalishda qatnaysiz?", reply_markup=ikkinchi)
+    await message.answer(f"Qaysi yo'nalishda qatnaysiz?", reply_markup=men_haydovchiman)
 
 
 @dp.message_handler(Text(equals=["Obuna bo'lish"]))
